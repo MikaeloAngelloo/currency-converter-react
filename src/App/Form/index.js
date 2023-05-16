@@ -8,13 +8,13 @@ export const Form = ({ calculateResult, result }) => {
     const [amount, setAmount] =useState("");
 
     const onSubmit = (event) => {
-        event.prevenDefault();
+        event.preventDefault();
         calculateResult(currency, amount);
     }
 
     return (
         <form className="form" onSubmit={onSubmit}>
-            <h1 className="form__header">
+            <h1 className="form__legend">
                 Przelicznik walut
             </h1>
             <p>
