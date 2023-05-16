@@ -1,3 +1,5 @@
+
+
 .form__labelText {
     width: 100%;
     max-width: 150px;
@@ -47,7 +49,7 @@
     padding: 5px;
     color: white;
 }
-.container {
+.form {
     max-height: 100%;
     max-width: 600px;
     margin: 0 auto;
@@ -56,4 +58,10 @@
     padding: 30px;
     background-color: rgb(224, 242, 243);
   
+  }
+
+  .form__info {
+    font-size: 14px;
+    text-align: center;
+    color: brown;
   }
