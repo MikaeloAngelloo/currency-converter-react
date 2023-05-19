@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Currency-converter
+The project was created in Create React app. [Click here](https://mikaeloangelloo.github.io/currency-converter-react/)
 
 ## Available Scripts
 
